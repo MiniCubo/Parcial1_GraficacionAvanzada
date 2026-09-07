@@ -2,6 +2,7 @@ using UnityEngine;
 public class Pass_Material : MonoBehaviour
 {
     private Renderer modelRenderer;
+    public GameManager manager;
 
     void Start()
     {
@@ -21,7 +22,12 @@ public class Pass_Material : MonoBehaviour
             if (objectRenderer != null && modelRenderer != null)
             {
                 modelRenderer.material = objectRenderer.material;
+                
             }
+
+            Destroy(other.gameObject);
+            manager.restarEsfera();
         }
+        
     }
 }
