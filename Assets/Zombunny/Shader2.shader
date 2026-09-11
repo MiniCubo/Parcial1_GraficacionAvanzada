@@ -6,7 +6,7 @@ Shader "ACG/Shader2"
         _sampleTexture("Texture", 2D) = "white" {}
         _sampleFloat("Example Float", Float) = 0.5
         _myVector("Example Vector", Vector) = (0.5,1,1,1)
-        _myCube("Example Cube", CUBE) = "" {}
+        //_myCube("Example Cube", CUBE) = "" {}
 
     }
 
@@ -19,7 +19,7 @@ Shader "ACG/Shader2"
             sampler2D _sampleTexture;
             float _sampleFloat;
             float4 _myVector;
-            samplerCUBE _myCube;
+            //samplerCUBE _myCube;
 
             struct Input{
                 float2 uv_sampleTexture;

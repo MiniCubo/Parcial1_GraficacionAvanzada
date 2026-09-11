@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StandardSpecPBR
-  m_Shader: {fileID: 4800000, guid: be43518d758bf5c4eb804ca35bedd408, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4150cced3c989a2408e9b42b50e7416d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -81,10 +81,12 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _rimPower: 1
     m_Colors:
     - _Color: {r: 0.56185657, g: 0.22204408, b: 0.6855345, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.91281635, g: 0.54517215, b: 0.93710685, a: 1}
     - _mainColor: {r: 0.51431733, g: 0.2551322, b: 0.6289307, a: 1}
+    - _rimColor: {r: 0.7962906, g: 0.15566039, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
